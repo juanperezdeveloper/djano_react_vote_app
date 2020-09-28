@@ -1,0 +1,103 @@
+.auth {
+    margin-top: 20vh;
+    max-width: 500px;
+    margin: 20vh auto;
+}
+
+.btn-log {
+    position: absolute;
+    right: 154px;
+    top: 12px;
+    padding: 4px;
+}
+
+.shop-navbar {
+    margin-top: 5vh;
+}
+
+.data-table {
+    width: 72%;
+    margin: auto;
+}
+ /* dashboard page  */
+.phone-images {
+    margin-top: 50px;
+}
+
+.phone-image {
+    border: 3px solid rgb(152, 38, 193);
+    margin-right: 40px;
+    width: 230px;
+    height: 430px;
+}
+
+.dashboard-container {
+    text-align: center;
+}
+
+/* shopdata page  */
+.shop-image {
+    border: 3px solid rgb(152, 38, 193);
+    margin-right: 40px;
+    width: 150px;
+    height: 75px;
+}
+
+table tr td {
+    vertical-align: middle !important;
+    padding: 0;
+    text-align: center;
+}
+
+.data-table-shop {
+    width: 90%;
+    margin: auto;
+}
+
+.imgPreview {
+  text-align: center;
+  margin: 5px 15px;
+  height: 200px;
+  width: 500px;
+  border: 1px solid #ced4da;
+}
+
+.addedit-form {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #cccc;
+    padding: 30px;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 100%;
+    }
+    .shop-navbar {
+        margin-top: 0vh;
+    }
+    #navbarSupportedContent {
+        margin-left: 90px;
+    }
+}
+
+
+/* shopdata global styles */
+
+a {
+    cursor: pointer;
+}
+
+.app-container {
+    min-height: 350px;
+}
+
+.btn-delete-user {
+    width: 40px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.nav-item {
+    color: red;
+}
